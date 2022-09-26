@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Final_Project_CS561</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="draw_your_signature_here">Draw Your Signature Here</string>
+
+    <string name="openDrawer">openDrawer</string>
+    <string name="closeDrawer">closeDrawer</string>
+    <string name="Loader">Please Wait.</string>
+    <string name="select_your_role">Select Your Role as</string>
+    <string name="organization">Organization</string>
+    <string name="client">Client</string>
+    <string name="request">Request</string>
+    <string name="pending">Pending</string>
+    <string name="approve">Approve</string>
+    <string name="approved">Approved</string>
+    <string name="find_user">Find User</string>
+    <string name="reset_plotter">Reset Plotter</string>
+
+    <string name="title_activity_profile">Profile</string>
+</resources>

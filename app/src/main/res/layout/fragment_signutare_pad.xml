@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey3_E"
+    tools:context=".Fragment.SignaturePad"
+   >
+
+    <LinearLayout
+        android:id="@+id/llSignaturePad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dim14dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_above="@+id/rrBtn"
+        >
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="@string/draw_your_signature_here"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rrBtn"
+        android:layout_marginStart="@dimen/dim12dp"
+        android:layout_marginEnd="@dimen/dim12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"/>
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Done"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

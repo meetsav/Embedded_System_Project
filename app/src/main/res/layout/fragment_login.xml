@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/llProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_your_role"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dim16sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dim8dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:id="@+id/rOrganization"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="@string/organization"
+                android:layout_marginEnd="@dimen/dim24dp"
+                android:checked="true"
+                android:buttonTint="@android:color/black"
+                android:textSize="@dimen/dim16sp"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                android:id="@+id/rClient"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="@string/client"
+                android:buttonTint="@android:color/black"
+                android:checked="false"
+                android:textSize="@dimen/dim16sp"
+                tools:targetApi="lollipop" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_sign_in"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_logout_from_google"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_revoke_access"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_revoke_access"
+        android:visibility="gone" />
+
+</LinearLayout>

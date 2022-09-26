@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/secondary_text</color>
+    <color name="colorPrimaryDark">@color/primary_text</color>
+    <color name="colorAccent">@color/grey_light</color>
+    <color name="accent">#9E9E9E</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="color_card">#FAFAFA</color>
+    <color name="grey_light">#70E0E0E0</color>
+    <color name="stroke_color_">#8cf437</color>
+    <color name="green">#8c9111</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="grey_warm0_I">#fff8f2</color>
+    <color name="grey_warm1_J">#f9f3ef</color>
+    <color name="tabnavi_N">#a7998a</color>
+    <color name="tabnavi_highlighted_O">#e98751</color>
+    <color name="lead0_K">#ea7600</color>
+    <color name="lead1_L">#f78305</color>
+    <color name="tab_bar_P">#f9fdff</color>
+    <color name="tab_border">#e0e0e0</color>
+    <color name="grey3_E">#b4b4b4</color>
+    <color name="grey5_G">#f3f3f3</color>
+    <color name="secondary0">#ffae72</color>
+    <color name="secondary1_r">#ffcbac</color>
+    <color name="grey_warm2_R">#fefcfa</color>
+
+    <color name="color_arc">@android:color/white</color>
+    <color name="color_text">@android:color/white</color>
+    <color name="color_progress">#58D4DE</color>
+    <color name="dark_gray">#37474F</color>
+    <color name="white">#fff</color>
+    <color name="bg">#F7F7F7</color>
+    <color name="bg_card">#B39DDB</color>
+    <color name="bg_button">#455A64</color>
+
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+</resources>

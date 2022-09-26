@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:id="@+id/rvRequest"
+    tools:context=".Organization.RequestActivity">
+    <com.example.final_project_cs561.Utils.CircleImageView
+        android:id="@+id/ivUser"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/dim100dp"
+        android:layout_marginTop="@dimen/dim28dp"
+        android:src="@drawable/ic_user"
+        android:layout_height="@dimen/dim100dp"/>
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gdg"
+        android:textSize="@dimen/dim24sp"
+        android:layout_marginTop="@dimen/dim22dp"
+        android:layout_below="@+id/ivUser"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gdg"
+        android:textSize="@dimen/dim18sp"
+        android:layout_marginTop="@dimen/dim8dp"
+        android:layout_below="@+id/tvUserName"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/request"
+        android:textSize="@dimen/dim22sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="@dimen/dim32dp"
+        android:textAllCaps="false"
+        android:background="@drawable/border"/>
+
+</RelativeLayout>
